@@ -1,0 +1,66 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 30px;
+    background: #f5f1e4;
+  }
+  .contact h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: #716c53;
+    margin: 0 auto;
+  }
+  .contact p {
+    font-size: 20px;
+    color: #835e3f;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .formulario{
+    margin: 0 auto;
+  }
+  .formulario input{
+  width: 400px;
+  height: 50px;
+  margin-right: 2px;
+  }
+  .formulario button{
+    color: white;
+    background: #835e3f;
+    height: 55px;
+    width: 200px;
+    border: none;
+  }
+  @media (min-width:320px) and (max-width:1000px){
+    .contact p {
+      text-align: justify;
+      width: 95%;
+    }
+    
+  }
+  @media (min-width:550px) and (max-width:750px){
+    .contact p {
+      text-align: justify;
+      width: 95%;
+    }
+   .contact input{
+    width: 100%;
+   } 
+  }
+  @media (min-width:320px) and (max-width:549px){
+    .contact{
+      padding: 20px;
+    }
+    .contact h2{
+      font-size: 40px;
+    }
+    .contact p {
+      text-align: justify;
+      width: 95%;
+    }
+   .contact input{
+    width: 90%;
+   } 
+  }

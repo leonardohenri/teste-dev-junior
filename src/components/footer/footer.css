@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    background-color: #222222;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer-text{
+    width: 50%;
+    padding: 40px;
+  }
+  .footer-text p{
+    width: 40%;
+    color:#ffffff;
+  }
+  .footer-icons{
+    width: 20%;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35px, 1fr));
+  }
+  @media (min-width:320px) and (max-width:1050px) {
+    .footer-text p{
+      width: 90%;
+    }
+  }

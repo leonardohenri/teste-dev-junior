@@ -1,0 +1,84 @@
+.Statistics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f1e4;
+    padding: 40px;
+  }
+  .statistics-text{
+    width: 40vw;
+  }
+  .statistics-text h2{
+    width: 200px;
+    margin: 0 auto 30px;
+    color: #835e3f;
+    font-size: 60px;
+  }
+  .statistics-text p {
+  font-size: 20px;
+  color: #835e3f;
+  }
+  .statistics-content{
+    margin-top: 30px;
+    display: flex;
+    gap: 150px;
+  }
+  .statistics-content div{
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    border: solid 2px #835e3f;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .statistics-content h3{
+    font-size: 70px;
+    color:#835e3f;
+    font-weight: 700;
+  }
+  .statistics-content p{
+    font-size: 20px;
+    color: #835e3f;
+  }
+  @media (min-width:750px) and (max-width:1050px){
+    .statistics-content{
+      gap: 50px;
+    } 
+    .statistics-text{
+      width: 80vw;
+    }
+  }
+  @media (min-width:600px) and (max-width:750px){
+    .statistics-content{
+      gap: 50px;
+    }
+    .statistics-content div{
+      width: 100px;
+      height: 100px;
+    }
+    .statistics-text{
+      width: 80vw;
+    }
+    .statistics-content h3{
+      font-size: 50px;
+    }
+  }
+  @media (min-width:320px) and (max-width:609px){
+    .statistics-content{
+      gap: 10px;
+      flex-direction: column;
+    }
+    .statistics-content div{
+      width: 100px;
+      height: 100px;
+    }
+    .statistics-text{
+      width: 80vw;
+    }
+    .statistics-content h3{
+      font-size: 50px;
+    }
+  }

@@ -1,0 +1,66 @@
+.menu-container{
+    height: 100px;
+    margin: 0 auto;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.logo{
+    background-image: url(../../images/burgoo.svg);
+    background-size: 100% 100%;
+    height: 75px;
+    width: 75px;
+}
+.Menu-Desktop{
+    display: flex;
+    gap: 50px;
+}
+.Menu-Desktop a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #835e3f;
+    font-weight: 700;
+}
+.Menu-Desktop a:hover{
+color:#9b7454;
+transition: 1s;
+}
+.mobile{
+display: none;
+background-image: url(../../images/icons8-menu.svg);
+background-size: 100% 100%;
+cursor: pointer;
+}
+.Menu-mobile{
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    height: 200px;
+    
+}
+.Menu-mobile a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 20px;
+    color: #835e3f;
+    font-weight: 700;
+}
+.ativo{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:700px){
+    .Menu-Desktop{
+       display: none;
+        
+    }
+    .mobile{
+        display: flex;
+        height: 50px;
+        width: 50px;
+    }
+} 
