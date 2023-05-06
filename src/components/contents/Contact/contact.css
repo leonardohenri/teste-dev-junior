@@ -25,18 +25,20 @@
   width: 400px;
   height: 50px;
   margin-right: 2px;
+  padding-left: 30px;
   }
   .formulario button{
     color: white;
     background: #835e3f;
     height: 55px;
     width: 200px;
+    cursor: pointer;
     border: none;
   }
-  @media (min-width:320px) and (max-width:1000px){
+  @media (min-width:750px) and (max-width:1000px){
     .contact p {
       text-align: justify;
-      width: 95%;
+      width: 100%;
     }
     
   }
@@ -46,7 +48,7 @@
       width: 95%;
     }
    .contact input{
-    width: 100%;
+    width: 90%;
    } 
   }
   @media (min-width:320px) and (max-width:549px){
@@ -61,6 +63,6 @@
       width: 95%;
     }
    .contact input{
-    width: 90%;
+    width: 80%;
    } 
   }
